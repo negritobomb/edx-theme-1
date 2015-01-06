@@ -38,9 +38,9 @@ Make sure to keep file permissions for server-vars.yml assigned to edx-ansible:e
 	sudo chmod edx-ansible:edx-ansible /edx/app/edx_ansible/server-vars.yml
 
 Re-run the provisioning scripts:
-
-    sudo /edx/bin/update edx-platform release    
-
+```
+sudo /edx/bin/update edx-platform release
+```
 ## License
 
 [AGPL](http://en.wikipedia.org/wiki/Affero_General_Public_License)

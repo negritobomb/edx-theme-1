@@ -34,9 +34,9 @@ edxapp_theme_source_repo: 'https://github.com/beacloudgenius/edx-theme.git'
 edxapp_theme_version: 'HEAD'
 ```
 Make sure to keep file permissions for server-vars.yml assigned to edx-ansible:edx-ansible
-
-	sudo chmod edx-ansible:edx-ansible /edx/app/edx_ansible/server-vars.yml
-
+```
+sudo chown edx-ansible:edx-ansible /edx/app/edx_ansible/server-vars.yml
+```
 Re-run the provisioning scripts:
 ```
 sudo /edx/bin/update edx-platform release

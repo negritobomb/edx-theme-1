@@ -1,0 +1,11 @@
+# sudo vi /edx/app/edx_ansible/server-vars.yml
+# sudo chown edx-ansible:edx-ansible /edx/app/edx_ansible/server-vars.yml
+# sudo /edx/bin/update edx-platform release
+---
+
+edxapp_use_custom_theme: true
+edxapp_theme_name: ionisx
+edxapp_theme_source_repo: "https://github.com/beacloudgenius/edx-theme.git"
+edxapp_theme_version: HEAD
+edx_platform_repo: "https://github.com/edx/edx-platform.git"
+edx_platform_version: release

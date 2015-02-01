@@ -35,6 +35,23 @@ Re-provision:
 ```
 sudo /edx/bin/update edx-platform release
 ```
+
+## Quick theme updates
+
+```
+sudo su edxapp  -s /bin/bash
+cd ~
+source edxapp_env
+
+cd /edx/app/edxapp/edx-platform
+paver update_assets lms --settings=aws
+
+cd ../themes/ionisx/
+git pull
+cd ../../edx-platform/
+paver update_assets lms --settings=aws
+```
+
 ## License
 
 [AGPL](http://en.wikipedia.org/wiki/Affero_General_Public_License)

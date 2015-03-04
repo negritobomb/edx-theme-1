@@ -9,17 +9,17 @@
       <ul>
         %if settings.MKTG_URL_LINK_MAP.get('ABOUT'):
         <li>
-          <a id="about" href="${marketing_link('ABOUT')}">${_("About")}</a>
+          <a id="about" href="${marketing_link('ABOUT')}">${_("Acerca de")}</a>
         </li>
         %endif
         %if settings.MKTG_URL_LINK_MAP.get('FAQ'):
         <li>
-          <a id="faq" href="//cloudgenius.freshdesk.com/" target="_blank">${_("FAQ")}</a>
+          <a id="faq" href="//cloudgenius.freshdesk.com/" target="_blank">${_("Preguntas Frecuentes")}</a>
         </li>
         %endif
         %if settings.MKTG_URL_LINK_MAP.get('CONTACT'):
         <li>
-          <a id="contact" href="${marketing_link('CONTACT')}">${_("Contact")}</a>
+          <a id="contact" href="${marketing_link('CONTACT')}">${_("Contacto")}</a>
         </li>
         %endif
         %if settings.MKTG_URL_LINK_MAP.get('TOS'):
@@ -28,9 +28,6 @@
         </li>
         %endif
         %if settings.MKTG_URL_LINK_MAP.get('HONOR'):
-        <li>
-          <a href="${marketing_link('HONOR')}">${_("Honor")}</a>
-        </li>
         %endif
         %if settings.MKTG_URL_LINK_MAP.get('PRIVACY'):
         <li>
@@ -44,11 +41,7 @@
         </li>
         <li class="social-item"><a href="http://www.twitter.com/beacloudgenius" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
         </li>
-        <li class="social-item"><a href="https://plus.google.com/+NileshLondheHere/photos" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
-        </li>
         <li class="social-item"><a href="https://www.linkedin.com/edu/alumni?name=Cloud+Genius" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
-        </li>
-        <li class="social-item"><a href="https://www.meetup.com/cloudgenius" target="_blank"><i class="fa fa-users fa-lg"></i></a>
         </li>
         %endif
       </ul>
@@ -59,8 +52,8 @@
       </p>
     </div>
     <div class="by-ionisx">
-      <a href="//be.a.cloudgeni.us">
-        <img src="${static.url('themes/{theme_name}/images/logo-x-white-small.png'.format(theme_name=settings.THEME_NAME))}" width="47" height="32" alt="Be a Cloud Genius">
+      <a href="//www.bunited.mx">
+        <img src="${static.url('themes/{theme_name}/images/logo-x-white-small.png'.format(theme_name=settings.THEME_NAME))}" width="47" height="32" alt="Educación en línea">
       </a>
     </div>
   </div>

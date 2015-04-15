@@ -154,8 +154,7 @@ module.exports = function (grunt) {
         grunt.option('force', true);
 
         grunt.task.run([
-            'build',
-            'watch'
+            'build'
         ]);
     });
 

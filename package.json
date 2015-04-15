@@ -1,10 +1,10 @@
 {
   "name": "edx-theme",
   "private": true,
-  "description": "Open edX theme for IONISx",
+  "description": "Open edX theme for B UNITED",
   "repository": {
     "type": "git",
-    "url": "git://github.com/IONISx/edx-theme.git"
+    "url": "git://github.com/negritobomb/edx-theme-1.git"
   },
   "scripts": {
     "test": "grunt test"

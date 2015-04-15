@@ -5,5 +5,5 @@
 
 edxapp_use_custom_theme: True
 edxapp_theme_name: ionisx
-edxapp_theme_source_repo: "https://github.com/beacloudgenius/edx-theme.git"
+edxapp_theme_source_repo: "https://github.com/negritobomb/edx-theme-1.git"
 edxapp_theme_version: master
